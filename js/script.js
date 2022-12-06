@@ -22,8 +22,6 @@ level_diff = document.getElementById('level').value;
 
 if (level_diff == 1){
     grid_number = 100;
-
-
 }
 
 else if (level_diff == 2){

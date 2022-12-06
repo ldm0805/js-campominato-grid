@@ -9,9 +9,13 @@ body{
 }
 
 .container_grid{
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     margin: 3em auto;
+}
+
+.input-group{
+    height: 4em;
 }
 
 .grid{
@@ -25,8 +29,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     outline: 1px solid black;
 }
 
