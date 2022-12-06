@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_grid
+
+.grid{
+    height: 900px;
+    width: 900px;
+    background-color: rebeccapurple;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width:90px;
+    outline: 1px solid black;
+}

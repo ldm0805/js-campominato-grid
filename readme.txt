@@ -4,4 +4,5 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
 1. Creare una griglia di gioco;
 2. Collegare la griglia di gioco ad un bottone;
 3. Far in modo che al click del pulsante venga generata la griglia;
-4. 
+4. Al click sulla singola cella, questa dovrà cambiare di colore
+    4.1 dovrà anche lasciare un messaggio in console con il proprio numero
