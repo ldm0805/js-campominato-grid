@@ -12,19 +12,19 @@ if(grid){
 
 function createGridSquare(number){
     const currentElement = document.createElement('div');
-    currentElement.classList.add('square');
+    currentElement.classList.add("square","dimension");
     currentElement.innerText = number;
     return currentElement;
 }
 
 level_diff = document.getElementById('level').value;
+grid_number = document.getElementById('level').value;
 
-
-if (level_diff == 1){
+if (level_diff == 100){
     grid_number = 100;
 }
 
-else if (level_diff == 2){
+else if (level_diff == 81){
     grid_number = 81;
 }
 
