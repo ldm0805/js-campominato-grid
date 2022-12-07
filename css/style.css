@@ -9,9 +9,11 @@ body{
 }
 
 .container_grid{
+    background-color: aqua;
     height: 800px;
     width: 800px;
     margin: 3em auto;
+    outline: 1px solid #181D31;
 }
 
 .input-group{
@@ -21,15 +23,16 @@ body{
 .grid{
     width: 100%;
     height: 100%;
-    background-color: rebeccapurple;
-    color: rgb(33, 0, 63);
+    background-color: #678983;
+    color: white;
 }
 
 .square, .square_med, .square_min{
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid black;
+    outline: 1px solid #181D31;
+    font-size: 20px;
 }
 
 .square{
@@ -46,7 +49,10 @@ body{
     height: calc(800px / 7);
     width: calc(800px / 7);
 }
+
 .clicked{
-    background-color: rgb(33, 0, 63);
-    color: rebeccapurple;
+    background-color: #181D31;
+    color: white;
+    font-weight: bold;
+    outline:3px solid white;
 }
