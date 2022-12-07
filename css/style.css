@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .container_grid{
@@ -25,15 +25,27 @@ body{
     color: rgb(33, 0, 63);
 }
 
-.square{
+.square, .square_med, .square_min{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    width: 80px;
     outline: 1px solid black;
 }
 
+.square{
+    height: calc(800px / 10);
+    width: calc(800px / 10);
+}
+
+.square_med{
+    height: calc(800px / 9);
+    width: calc(800px / 9);
+}
+
+.square_min{
+    height: calc(800px / 7);
+    width: calc(800px / 7);
+}
 .clicked{
     background-color: rgb(33, 0, 63);
     color: rebeccapurple;
