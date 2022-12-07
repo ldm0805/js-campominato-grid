@@ -71,3 +71,11 @@ h1.title{
     font-weight: bold;
     outline:3px solid white;
 }
+
+.red{
+    background-color: red;
+}
+
+/* .remove{
+    pointer-events: none;
+} */
