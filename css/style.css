@@ -2,10 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-color: rgb(255, 255, 255);
+}
+
+h1.title{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: auto 0;
+    vertical-align: middle;
+}
+
+#item-up.btn-info{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .container_grid{
